@@ -73,7 +73,7 @@
     <div class="carousel-item active">         
       <img src="multimedia/imagenes/Estudio1.jpg" alt="ubisoft">
       <div class="carousel-caption">
-        <h3>Consigue lo que te polla</h3>
+        <h3>Consigue lo que te propongas</h3>
       </div>
     </div>
     <div class="carousel-item">
