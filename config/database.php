@@ -1,5 +1,5 @@
 <?php
-$DATABASE_URL = parse_url('postgres://kbembqtcbguyev:7bf72fcee7cfed923371112c00be12f2cc40eda2b8cedff804f4a483bab8c5b5@ec2-52-5-247-46.compute-1.amazonaws.com:5432/d7dnp6qi41jlmg')
+$DATABASE_URL = parse_url('postgres://kbembqtcbguyev:7bf72fcee7cfed923371112c00be12f2cc40eda2b8cedff804f4a483bab8c5b5@ec2-52-5-247-46.compute-1.amazonaws.com:5432/d7dnp6qi41jlmg');
 use Illuminate\Support\Str;
 
 return [
