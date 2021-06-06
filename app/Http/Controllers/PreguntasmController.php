@@ -11,7 +11,6 @@ use Illuminate\Http\Request;
  */
 class PreguntasmController extends Controller
 {
-    
     /**
      * Display a listing of the resource.
      *
@@ -19,7 +18,6 @@ class PreguntasmController extends Controller
      */
     public function index()
     {
-        $table = 'd7dnp6qi41jlmg.Preguntasm';
         $preguntasms = Preguntasm::paginate();
 
         return view('preguntasm.index', compact('preguntasms'))
