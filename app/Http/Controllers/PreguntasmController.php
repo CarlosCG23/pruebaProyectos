@@ -11,6 +11,7 @@ use Illuminate\Http\Request;
  */
 class PreguntasmController extends Controller
 {
+    protected $table = 'd7dnp6qi41jlmg.Preguntasm';
     /**
      * Display a listing of the resource.
      *
