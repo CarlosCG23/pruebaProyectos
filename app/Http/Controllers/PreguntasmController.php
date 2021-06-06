@@ -11,7 +11,7 @@ use Illuminate\Http\Request;
  */
 class PreguntasmController extends Controller
 {
-    protected $table = 'd7dnp6qi41jlmg.Preguntasm';
+    
     /**
      * Display a listing of the resource.
      *
@@ -19,7 +19,8 @@ class PreguntasmController extends Controller
      */
     public function index()
     {
-        $preguntasms = Preguntasm::paginate();
+        protected $table = 'd7dnp6qi41jlmg.Preguntasm';
+        //$preguntasms = Preguntasm::paginate();
 
         return view('preguntasm.index', compact('preguntasms'))
             ->with('i', (request()->input('page', 1) - 1) * $preguntasms->perPage());
