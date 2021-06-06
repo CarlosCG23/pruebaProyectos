@@ -20,7 +20,7 @@ class PreguntasmController extends Controller
     public function index()
     {
         $table = 'd7dnp6qi41jlmg.Preguntasm';
-        //$preguntasms = Preguntasm::paginate();
+        $preguntasms = Preguntasm::paginate();
 
         return view('preguntasm.index', compact('preguntasms'))
             ->with('i', (request()->input('page', 1) - 1) * $preguntasms->perPage());
