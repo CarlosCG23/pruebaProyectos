@@ -19,7 +19,7 @@ class PreguntasmController extends Controller
      */
     public function index()
     {
-        protected $table = 'd7dnp6qi41jlmg.Preguntasm';
+        $table = 'd7dnp6qi41jlmg.Preguntasm';
         //$preguntasms = Preguntasm::paginate();
 
         return view('preguntasm.index', compact('preguntasms'))
