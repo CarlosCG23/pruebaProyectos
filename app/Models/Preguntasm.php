@@ -19,7 +19,10 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Preguntasm extends Model
 {
-  public $table = "Preguntasm";
+  protected $table = 'd7dnp6qi41jlmg.Preguntasm';
+
+
+  //public $table = "Preguntasm";
 
     static $rules = [
 		'titulo' => 'required',
